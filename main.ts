@@ -17,11 +17,11 @@ basic.forever(function () {
         led.unplot(x, y)
         y = -1
     }
-    if (y1 > 5) {
+    if (y1 > 4) {
         led.unplot(x, y1)
         y1 = -1
     }
-    if (y2 > 6) {
+    if (y2 > 4) {
         led.unplot(x, y2)
         y2 = -1
     }
